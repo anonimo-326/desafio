@@ -39,7 +39,7 @@ while True:
             extrato += f"Saque: R${valor:.2f}\n"
             print(f"Saque de R${valor:.2f} realizado com sucesso.")
     if escolha.title() == "Depositar":
-        valor = float(input("Quanto pretendes depositar: "))
+        valor = float(input("Quanto pretendes depositar? "))
         if valor <= 0:
             print("Valor inválido.")
         if valor > 0:
